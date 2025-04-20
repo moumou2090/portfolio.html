@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Mon Portfolio</title>
+</head>
+<body>
+
+    <!-- ✅ Navbar -->
+    <nav>
+        <ul>
+            <li><a href="#home">Accueil</a></li>
+            <li><a href="#about">À propos</a></li>
+            <li><a href="#work">Travail</a></li>
+            <li><a href="#resume">CV</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- ✅ Home Section -->
+    <header id="home">
+        <h1>Bienvenue dans mon Portfolio</h1>
+        <p>Je suis développeuse web en formation.</p>
+    </header>
+
+    <!-- ✅ About Section -->
+    <section id="about">
+        <h2>À propos de moi</h2>
+        <p>Je suis passionnée par la technologie et le développement web.</p>
+    </section>
+
+    <!-- ✅ Work Section avec vidéo/audio -->
+    <section id="work">
+        <h2>Mes Projets</h2>
+        <p>Voici une démo vidéo de mon travail :</p>
+        <video width="320" height="240" controls>
+            <source src="video.mp4" type="video/mp4">
+            Votre navigateur ne supporte pas la vidéo.
+        </video>
+        <p>Ou écoutez une description audio :</p>
+        <audio controls>
+            <source src="audio.mp3" type="audio/mp3">
+            Votre navigateur ne supporte pas l'audio.
+        </audio>
+    </section>
+
+    <!-- ✅ Résumé Section (avec tableau) -->
+    <section id="resume">
+        <h2>Mon CV</h2>
+        <table border="1">
+            <thead>
+                <tr>
+                    <th>Année</th>
+                    <th>Expérience</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>2023</td>
+                    <td>Formation Développement Web</td>
+                </tr>
+                <tr>
+                    <td>2022</td>
+                    <td>Stage en entreprise</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <!-- ✅ Contact Section (Formulaire HTML) -->
+    <section id="contact">
+        <h2>Contactez-moi</h2>
+        <form>
+            <label>Nom:</label><br>
+            <input type="text" name="nom" required><br><br>
+            
+            <label>Email:</label><br>
+            <input type="email" name="email" required><br><br>
+
+            <label>Message:</label><br>
+            <textarea name="message" rows="5" required></textarea><br><br>
+
+            <input type="submit" value="Envoyer">
+        </form>
+    </section>
+
+    <!-- ✅ Footer -->
+    <footer>
+        <p>&copy; 2025 Mon Portfolio. Tous droits réservés.</p>
+    </footer>
+
+</body>
+</html>
